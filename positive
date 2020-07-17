@@ -1,0 +1,6 @@
+list1=[int(p) for p in input().split(',')]
+list2=[int(q) for q in input().split(',')]
+y=list(filter(lambda x:(x>0),list1))
+z=list(filter(lambda a:(a>0),list2))
+print(y)
+print(z)
