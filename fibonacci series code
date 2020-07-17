@@ -1,0 +1,13 @@
+n=int(input("enter n"))
+t1=0
+t2=1
+i=0
+while(i<n):
+  if(i<=1):
+    nt=i
+  else:
+    nt=t1+t2
+    t1=t2
+    t2=nt
+  print(nt)
+  i=i+1
